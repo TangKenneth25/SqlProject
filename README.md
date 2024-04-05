@@ -26,10 +26,19 @@ Took query results to Excel to generate charts for better visual
 
 ## Results
 * The ecommerce data showed that this service is primarily used by customers from the United States looking to purchase Nest products and accesories. 
+
+<img src="https://i.imgur.com/eUzo8wA.png"  width="60%">
+
+[]()
 * The highest purchased and highest revenue items are Nest products and accesories.
 * A large portion (more than half) of the visits on the site come from organic searches. Following after by close quantities from direct visits and referrals. The following paid searches and affiliates are bringing significantly less than the former channels 
 * Missing cities on a large portion so inconclusive
-Photo here
+
+
+With these results, we know the demogrpahic of the customers who generate revenue. This is useful to target sales and advertisements in specific cities with items that are more likely to sell. It is also useful on the other end, to target untapped locations and markets.
+However, there is a large portion of the revenue that has the customer city excluded. We should consider how reliable the results are 
+with the excluded data, as it is likely that it was excluded intentionally to prevent competition from finding the results that we are searching for.
+
 
 ## Challenges 
 * Unknown data source, did not know what the purpose of it was, what tthe elements meant, and how the tables were connected if at all.
