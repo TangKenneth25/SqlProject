@@ -48,6 +48,9 @@ Answer:
 |Canada                        |150.15                |
 |Switzerland                   |16.99                 |
 
+<br>
+	<img src="https://i.imgur.com/iGeVKd3.png" alt="Country revenue" width="300">
+<br>
 
 <br>
 
@@ -74,6 +77,9 @@ Answer:
 |Columbus                      |21.99                 |
 |Zurich                        |16.99                 |
 
+<br>
+	<img src="https://i.imgur.com/e6GuqVw.png" alt="City revenue" width="300">
+<br>
 
 **Question 2: What is the average number of products ordered from visitors in each city and country?**
 
@@ -151,8 +157,8 @@ The average of products for each order shown in tables below. Note that for some
 **Question 3: Is there any pattern in the types (product categories) of products ordered from visitors in each city and country?**
 
 
-SQL Queries:
-Country Transactions Sum
+SQL Queries: <br>
+Country Category Transactions Revenue
 ```SQL
 SELECT 
 	country, 
@@ -167,7 +173,8 @@ ORDER BY
 	totalspent DESC;
 ```
 
-City Transaction Sum
+
+City Category Transaction Revenue
 ```SQL
 SELECT 
 	city, 
@@ -182,7 +189,8 @@ ORDER BY
 	totalspent DESC;
 ```
 
-Country Transaction Count
+
+Country Product Transaction Count
 ```SQL
 SELECT 
 	country, 
@@ -197,7 +205,8 @@ ORDER BY
 	Count DESC;
 ```
 
-City Transaction Count
+
+City Product Transaction Count
 ```SQL
 SELECT 
 	city, 

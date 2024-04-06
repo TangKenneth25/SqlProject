@@ -117,7 +117,7 @@ Answer:
 |Morocco                       |00:07:37              |10  |
 
 
-## Question 5: Determine which channels are being used for the sessions
+## Question 5: Which channels are most sessions coming from? what about revenue?
 
 SQL Queries:
 ```SQL
@@ -130,8 +130,17 @@ GROUP BY
 	channel_grouping
 ORDER BY 
 	Visit_count DESC;
-```
 
+SELECT 
+	channel_grouping, 
+	COALESCE(SUM(total_transaction_revenue),0)/1000000 AS Total_Revenue
+FROM 
+	all_sessions
+GROUP BY 
+	channel_grouping
+ORDER BY 
+	Total_Revenue DESC;
+```
 Answer:
 
 |channel_grouping              |visit_count           |
@@ -143,3 +152,25 @@ Answer:
 |Affiliates                    |247                   |
 |Display                       |121                   |
 |(Other)                       |5                     |
+
+
+<br>
+	<img src="https://i.imgur.com/zfzQEIk.png" alt="Channel Sessions" width="300">
+<br>
+
+
+|channel_grouping|total_revenue|
+|:---------------|:------------|
+|Referral        |6018.68      |
+|Direct          |4704.19      |
+|Organic Search  |3163.67      |
+|Paid Search     |394.77       |
+|Affiliates      |0            |
+|Display         |0            |
+|(Other)         |0            |
+
+<br>
+	<img src="https://i.imgur.com/iGeVKd3.png" alt="Channel Revenues" width="300">
+<br>
+
+
