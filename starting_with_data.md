@@ -155,7 +155,7 @@ Answer:
 
 
 <br>
-	<img src="https://i.imgur.com/zfzQEIk.png" alt="Channel Sessions" width="300">
+	<img src="https://i.imgur.com/Q4qwQLs.png" alt="Channel Sessions" width="300">
 <br>
 
 
@@ -170,7 +170,7 @@ Answer:
 |(Other)         |0            |
 
 <br>
-	<img src="https://i.imgur.com/iGeVKd3.png" alt="Channel Revenues" width="300">
+	<img src="https://i.imgur.com/6QWjB8Y.png" alt="Channel Revenues" width="300">
 <br>
 
 

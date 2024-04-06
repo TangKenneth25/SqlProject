@@ -35,8 +35,8 @@ Took query results to Excel to generate charts for better visual
 * We see the most session visits coming from organic searches but we get the most revenue and sales from customers from direct and referral channels
 
 <br>
-	<img src="https://i.imgur.com/zfzQEIk.png" alt="Sessions from Channels" width="300">
-	<img src="https://i.imgur.com/KKHz3wi.png" alt="Revenue from Channels" width="300">
+	<img src="https://i.imgur.com/Q4qwQLs.png" alt="Sessions from Channels" width="300">
+	<img src="https://i.imgur.com/6QWjB8Y.png" alt="Revenue from Channels" width="300">
 <br>
 
 
